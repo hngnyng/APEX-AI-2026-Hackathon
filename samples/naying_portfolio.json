@@ -1,0 +1,33 @@
+{
+  "profile": {
+    "name": "Na Ying",
+    "level": "University Junior",
+    "studentType": "balanced",
+    "primaryGoal": "Optimize study-life balance and maximize GPA in core courses",
+    "sleepHours": 7.5,
+    "weeklyStudyGoal": 20,
+    "workloadPreference": "medium"
+  },
+  "subjects": [
+    { "name": "Algorithms & Data Structures", "grade": "B+", "target": "A", "hoursPerWeek": 6 },
+    { "name": "Database Systems", "grade": "A-", "target": "A", "hoursPerWeek": 5 },
+    { "name": "Web Application Development", "grade": "A", "target": "A+", "hoursPerWeek": 5 },
+    { "name": "Linear Algebra", "grade": "B", "target": "A-", "hoursPerWeek": 4 }
+  ],
+  "exams": [
+    { "subject": "Algorithms & Data Structures", "name": "Midterm Exam", "date": "2026-06-22", "weight": 25, "prepLevel": 3 },
+    { "subject": "Database Systems", "name": "SQL Design Project", "date": "2026-06-25", "weight": 20, "prepLevel": 4 }
+  ],
+  "timetable": [
+    { "day": "Monday", "subject": "Algorithms & Data Structures", "start": "09:00", "end": "10:30", "type": "class" },
+    { "day": "Monday", "subject": "Database Systems", "start": "11:00", "end": "12:30", "type": "class" },
+    { "day": "Wednesday", "subject": "Algorithms & Data Structures", "start": "09:00", "end": "10:30", "type": "class" },
+    { "day": "Wednesday", "subject": "Database Systems", "start": "11:00", "end": "12:30", "type": "class" },
+    { "day": "Thursday", "subject": "Web Application Development", "start": "14:00", "end": "15:30", "type": "class" },
+    { "day": "Friday", "subject": "Linear Algebra", "start": "10:00", "end": "11:30", "type": "class" }
+  ],
+  "personalGoals": [
+    { "id": "ny-1", "text": "Complete coding assignments 2 days before deadline", "completed": false },
+    { "id": "ny-2", "text": "Sleep at least 7.5 hours on weeknights", "completed": true }
+  ]
+}

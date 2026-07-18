@@ -1,0 +1,33 @@
+{
+  "profile": {
+    "name": "Jane Doe",
+    "level": "University Sophomore",
+    "studentType": "procrastinator",
+    "primaryGoal": "Raise my GPA above 3.5 and secure a software internship",
+    "sleepHours": 6.2,
+    "weeklyStudyGoal": 15,
+    "workloadPreference": "medium"
+  },
+  "subjects": [
+    { "name": "Data Structures", "grade": "C+", "target": "A-", "hoursPerWeek": 5 },
+    { "name": "Calculus III", "grade": "B-", "target": "A", "hoursPerWeek": 6 },
+    { "name": "Technical Writing", "grade": "A", "target": "A", "hoursPerWeek": 2 },
+    { "name": "General Physics II", "grade": "B", "target": "A-", "hoursPerWeek": 6 }
+  ],
+  "exams": [
+    { "subject": "Data Structures", "name": "Binary Search Trees Practical", "date": "2026-06-19", "weight": 25, "prepLevel": 2 },
+    { "subject": "Calculus III", "name": "Vector Calculus Midterm", "date": "2026-06-22", "weight": 30, "prepLevel": 3 }
+  ],
+  "timetable": [
+    { "day": "Monday", "subject": "Data Structures", "start": "09:00", "end": "10:30", "type": "class" },
+    { "day": "Monday", "subject": "Calculus III", "start": "11:00", "end": "12:30", "type": "class" },
+    { "day": "Wednesday", "subject": "Data Structures", "start": "09:00", "end": "10:30", "type": "class" },
+    { "day": "Wednesday", "subject": "Calculus III", "start": "11:00", "end": "12:30", "type": "class" },
+    { "day": "Friday", "subject": "Technical Writing", "start": "10:00", "end": "11:30", "type": "class" },
+    { "day": "Friday", "subject": "General Physics II", "start": "13:00", "end": "15:00", "type": "class" }
+  ],
+  "personalGoals": [
+    { "id": "g1", "text": "Solve 3 LeetCode problems every evening", "completed": false },
+    { "id": "g2", "text": "Sleep 7+ hours before midterm exam days", "completed": false }
+  ]
+}
