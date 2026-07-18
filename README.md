@@ -31,3 +31,50 @@ To run this application locally, you will need:
 1. **Navigate to the project folder:**
    ```bash
    cd student-life-coach-1
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Configure Environment Variables:**
+   Create a `.env` file in the root directory and add your Gemini API Key:
+   ```env
+   VITE_GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open in browser:**
+   Open [http://localhost:3000](http://localhost:3000) (or the alternative port printed in the terminal) to view the dashboard.
+
+### Additional Scripts
+
+* **Build for production:**
+  ```bash
+  npm run build
+  ```
+* **Preview production build locally:**
+  ```bash
+  npm run preview
+  ```
+
+---
+
+## Integrations & Workato Setup
+
+Aegis AI comes equipped with a built-in webhook dispatcher configured to sync your timetable to Google Calendar:
+1. Copy the webhook URL from your **Workato custom webhook trigger**.
+2. Paste the URL into the **Webhook Settings** panel inside the Aegis dashboard.
+3. Click **Sync Profile & Schedule**. The app compiles your weekly slots, calculating their start and end dates relative to the current calendar week, and dispatches them in JSON format.
+4. Set up a **Repeat Action** loop in Workato to process each item in the `timetable_schedule` list and map them to **Google Calendar: Create Event** actions.
+
+---
+
+## Development & Credits
+
+This project was built and optimized with the assistance of **Antigravity**, an agentic AI coding assistant designed by the **Google DeepMind** team.
